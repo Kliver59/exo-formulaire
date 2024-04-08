@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    
+</head>
+<body>
+    <form method="post" action="form.php">
+        <fieldset>
+            <legend>Information personnelles :</legend>
+            <div class="champ">
+                <label for=prénom>Prénom :</label>
+                <input type="text" id="prénom" name="prénom" placeholder="muscicat">
+            </div>
+            <div class="champ">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="De Graeve">
+            </div>
+            <div class="champ">
+                <label for="age">Age :</label>
+                <input type="number" id="age" name="age" placeholder="26">
+            </div>
+            <div class="champ">
+                sexe :
+                <label for="h">Homme</label>
+                <input type="radio" id="h" name="sexe" value="homme">
+                <label for="f">Femme</label>
+                <input type="radio" id="f" name="sexe" value="femme">
+            </div>
+            <div class="champ">
+                <label for="adressemail">Adresse Mail :</label>
+                <input type="email" id="adressemail" name="mail" placeholder="mail.com">
+            </div>
+            <div class="champ">
+                <label for="adressepostale">Adresse postale :</label>
+                <input type="text" id="adressepostale" name="adresse postale" placeholder="120 rue joncquille 59999 moselle">
+            </div>
+            <div class="champ">
+                <label for="codepostal">Code postal :</label>
+                <input type="text" name="codepostal" id= "codepostal" value="Code Postal" size="12" maxlength="5"/>
+            </div>
+            <div class="champ">
+                <label for="ville">Ville :</label>
+                <input type="text" id="ville" name="ville" placeholder="Marseille">
+            </div>
+            <div class="champ">
+                métiers exercés :
+                <label for="bûcheron">bûcheron</label>
+                <input type="radio" id="bûcheron" name="bûcheron">
+                <label for="camionneur">camionneur</label>
+                <input type="radio" id="camionneur" name="camionneur">
+                <label for="paysagiste">paysagiste</label>
+                <input type="radio" id="paysagiste" name="paysagiste">
+            </div>
+            <div class="champ">
+                <label for="nationalité">Nationalité :</label>
+            <select id="nationalité" name="nationalité">
+                <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="belgique">Belgique</option>
+                    <option value="suisse">Suisse</option>
+                </optgroup>
+                <optgroup label="Afrique">
+                    <option value="algerie">Algerie</option>
+                    <option value="tunisie">Tunisie</option>
+                    <option value="maroc">Maroc</option>
+                    <option value="madagascar">Madagascar</option>
+                    <option value="benin">Benin</option>
+                    <option value="togo">Togo</option>
+                </optgroup>
+                <optgroup label="Amerique">
+                    <option value="canada">Canada</option>
+                </optgroup>
+            </select>
+            </div>
+            <div class="champ">
+                <label for="datedenaissance">Date de naissance :</label>
+                <input type="date" id="datedenaissance" name="Datetime">
+            </div>
+            <div class="champ">
+                <label for="pays">Pays de naissance :</label>
+                <select id="pays" name="pays">
+                    <optgroup label="Europe">
+                        <option value="france">France</option>
+                        <option value="belgique">Belgique</option>
+                        <option value="suisse">Suisse</option>
+                    </optgroup>
+                    <optgroup label="Afrique">
+                        <option value="algerie">Algerie</option>
+                        <option value="tunisie">Tunisie</option>
+                        <option value="maroc">Maroc</option>
+                        <option value="madagascar">Madagascar</option>
+                        <option value="benin">Benin</option>
+                        <option value="togo">Togo</option>
+                    </optgroup>
+                    <optgroup label="Amerique">
+                        <option value="canada">Canada</option>
+                    </optgroup>
+                </select>
+                </div>
+                <div class="champ">
+                    <label for="numérodesécuritésocial">Numéro de sécurité social :</label>
+                    <input type="text" id="numérodesécuritésocial" name="social sécurity num" placeholder="1 98 01 99 170 980">
+                </div>
+                <div class="champ">
+                    <label for="numérodupasseport">Numéro du passeport</label>
+                    <input type="text" id="numérodupasseport" name="numérodupasseport" placeholder="Numéro du passeport">
+                </div>
+                <div class="champ">
+                    <label for="datededélivrancedupasseport">Date de délivrance du passeport</label>
+                    <input type="date" id="datededélivrancedupasseport" name="délivrance">
+                </div>
+                <div class="champ">
+                    <label for="datedevaliditédupasseport">Date de validité du passeport</label>
+                    <input type="date" id="datedevaliditédupasseport" name="validité">
+                </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
